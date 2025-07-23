@@ -1,0 +1,28 @@
+{
+  "name": "simple-app2",
+  "version": "1.0.0",
+  "description": "simple-app2",
+  "main": "index.js",
+"scripts": {
+  "start": "node dist/index.js",
+  "dev": "ts-node src/index.ts",
+  "build": "tsc"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanzwut2525/simple-app2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/tanzwut2525/simple-app2/issues"
+  },
+  "homepage": "https://github.com/tanzwut2525/simple-app2#readme",
+  "devDependencies": {
+    "@types/node": "^24.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
